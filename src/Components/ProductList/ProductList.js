@@ -13,7 +13,7 @@ function ProductList()
         desc={"Trimmer ladies set"}
         />
         <Product 
-        price={5500} 
+        price={55333300} 
         name={"Lenova Monitor"} 
         img={"https://rukminim2.flixcart.com/image/312/312/ko8xtow0/monitor/t/a/y/d24-20-66aekac1in-lenovo-original-imag2qwzazcdmqtb.jpeg?q=70"}
         desc={"Monitor lenova 1080p"}
