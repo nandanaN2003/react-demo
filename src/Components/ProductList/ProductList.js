@@ -7,7 +7,7 @@ function ProductList()
     <>
     <div className="productlist">
         <Product 
-        price={1650} 
+        price={1222250} 
         name={"Trimmer"} 
         img={"https://rukminim2.flixcart.com/image/612/612/xif0q/shaver/t/u/z/new-shaver-for-trimmer-hair-cutting-saving-classic-machine-beard-original-imagsxg2gwpme8u2.jpeg?q=70"}
         desc={"Trimmer ladies set"}
