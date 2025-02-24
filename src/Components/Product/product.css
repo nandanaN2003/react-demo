@@ -1,0 +1,20 @@
+.Product{
+    text-align: center;
+    border: 2px;
+    border-color: green;
+    border-style: groove;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin: 10px;
+  }
+  
+  .addToCart{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(252, 212, 36);
+    color: rgb(2, 10, 16);
+  }

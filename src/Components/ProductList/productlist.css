@@ -1,0 +1,25 @@
+/* Style for the product list container */
+.productlist {
+    display: flex;
+    flex-wrap: wrap;  /* Allow items to wrap onto a new line if needed */
+    gap: 20px;  /* Space between the product items */
+    justify-content: center;  /* Center the items horizontally */
+    padding: 20px;
+}
+
+/* If you want to control the size of the product items */
+.productlist .product {
+    width: 250px;  /* Adjust width as needed */
+    flex: 1 1 250px;  /* Flexible item that grows or shrinks with a minimum size */
+}
+
+/* Optional styling for responsiveness */
+@media (max-width: 768px) {
+    .productlist {
+        justify-content: space-between;  /* Stack items with equal spacing on smaller screens */
+    }
+
+    .productlist .product {
+        width: 100%;  /* Make products take full width on mobile devices */
+    }
+}
